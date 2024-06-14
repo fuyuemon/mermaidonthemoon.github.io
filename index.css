@@ -117,7 +117,7 @@ td{
 
 hr.dot_line {
 	border: 0;
-	border-top: dotted 3px lightblue;
+	border-top: dotted 3px;
 	margin: 10px;
 }
 
@@ -143,20 +143,9 @@ a.post {
 	background-image: linear-gradient(lightblue, white);
   }
 
-.edge {
-	background-color: white;
-	padding: 5px;
-	border: dotted 3px lightblue;
-}
-h1.edge{}
+
 
 img.cover {
 	filter: drop-shadow(0 0 0.75rem rgb(36, 145, 182));
 
-}
-
-.storylist {
-	background-color: white;
-	border: dotted 3px lightblue;
-	padding: 5px;
 }
