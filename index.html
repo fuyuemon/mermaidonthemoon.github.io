@@ -33,41 +33,6 @@
 			<div id="bgi">
 				<img class="cover" src="img/topillust01.jpg">
 			</div>
-			<div class="list-controller">
-				<script>
-					function toggleThumb(){
-						var showThumb = ($('div.top_image:visible').length > 0);
-						$.cookie('comic-top-hide-thumb', showThumb, 1000);
-						$('div.top_image').toggle();
-					}
-					function setListLine() {
-						$('div.sep').removeClass('sep-thumb');
-						$('a.style-icon').removeClass('current');
-						$('a.style-line').addClass('current');
-						$.cookie('comic-list-style', 'line', 1000);
-					}
-					function setListThumb () {
-						$('div.sep').addClass('sep-thumb');
-						$('a.style-icon').removeClass('current');
-						$('a.style-thumb').addClass('current');
-						$.cookie('comic-list-style', 'thumb', 1000);
-					}
-					$(function(){
-						if ($.cookie('comic-list-style') == 'thumb') {
-							setListThumb();
-						} else {
-							setListLine();
-						}
-					});
-				</script>
-				<a href="#" title="一覧" alt="一覧" class="style-icon style-line"
-				   onclick="setListLine(); return false;"
-				><img src="/inside/image/list_line.png"></a>
-				<a href="#" title="サムネイル" alt="サムネイル" class="style-icon style-thumb"
-				   onclick="setListThumb(); return false;"
-				><img src="/inside/image/list_thumb.png"></a>
-				<div style="clear:both;"></div>
-			</div>
 			<table class="story">
 				<tbody>
 					<tr>
