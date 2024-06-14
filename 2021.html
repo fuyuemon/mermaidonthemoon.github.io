@@ -7,10 +7,39 @@
 		<meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@neetsha" />
 		<link rel="stylesheet" href="manga.css" type="text/css" />
+		<script>
+			// メニュー･ロールオーバー
+			function rollOver(obj,val) {
+				obj.className = val;
+			}
+		
+			// 表示モード切替
+			function displayMode(item, mode) {
+				document.getElementById('mysubmenu' + item).style.display = mode;
+			}
+		
+			//ポップアップメニュー
+			function pop_on(parent, id)		//"メニュー1"にマウスオン
+			{
+				obj = document.getElementById("pop_" + id);
+				obj.style.display="block";
+				parent = document.getElementById("topmenu" + id);
+				if(parent){
+					rc = parent.getBoundingClientRect();
+					obj.style.position = "absolute";
+					obj.style.top = rc.bottom + "px";
+					obj.style.left = rc.left + "px";
+				}
+			}
+			function pop_out(parent, id)	//"メニュー1"からマウスアウト
+			{
+				document.getElementById("pop_" + id).style.display="none";
+			}
+		</script>
 		<title>月の人魚</title>
 	</head>
 	<body>
-
+		<div id="main">
 		<div class="center">
 			<a href="index.html" target="_self">TOPに戻る</a><br>
 			<a href="2.html" target="_self">次のページ</a>
@@ -66,6 +95,6 @@
 	</form>
 	<!-- Neetel_Inside_Comment -->
 </div>
-
+</div>
 	</body>
 </html>
