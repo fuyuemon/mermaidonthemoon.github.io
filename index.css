@@ -38,7 +38,6 @@ a:active {
 	line-height: 120%;
 	margin: 10px auto;
 	padding: 4px;
-	background-image: url('j05-bg-star.png');
 }
 
 #comment {
@@ -48,7 +47,6 @@ a:active {
 	width: auto;
 	margin:  20px auto 0 auto;
 	padding: 4px;
-	background-image: url('j05-bg-star.png');
 }
 
 .center {
@@ -160,4 +158,5 @@ img.cover {
 .storylist {
 	background-color: white;
 	border: dotted 3px lightblue;
+	padding: 5px;
 }
