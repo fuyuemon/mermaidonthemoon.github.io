@@ -113,3 +113,27 @@ form.post a:hover {
 	-moz-border-radius: 8px;
 	border-radius: 8px;
 }
+
+hr.dot_line {
+	border: 0;
+	border-top: dotted 2px gray;
+	margin: 10px;
+}
+
+form.post {
+	max-width: 810px;
+	width: auto;
+	margin: 1em auto;
+	color: black;
+	font-size: 16px;
+}
+
+form.post a {
+	color: black;
+	text-decoration: underline;
+}
+
+a.post {
+	color: red;
+	text-decoration: none;
+}
