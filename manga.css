@@ -84,12 +84,32 @@ form.post a:hover {
 	padding: 4px;
 }
 
-/* パソコンで見たときは"pc"のclassがついた画像が表示される */
-.pc { display: block !important; }
-.sp { display: none !important; }
- 
-/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
-@media only screen and (max-width: 750px) {
-    .pc { display: none !important; }
-    .sp { display: block !important; }
+@media screen and (max-width: 520px) {
+	div.sep-thumb {
+		width: calc((100vw - 32px) / 3 - 12px);
+		margin: 5px;
+		float: left;
+	}
+	div.sep-thumb div.top_image {
+		width: calc((100vw - 32px) / 3 - 12px);
+		height: calc((100vw - 32px) / 3 - 12px);
+		text-align: center;
+	}
+	div.sep-thumb div.top_image img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
+
+.comic-box {
+	max-width: 810px;
+	width: auto;
+	text-align: center;
+	background-color: #eee;
+	border: 2px solid #22395E;
+	margin: 20px auto 0 auto;
+	padding: 4px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
 }
