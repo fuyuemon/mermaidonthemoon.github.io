@@ -34,7 +34,7 @@ a:active {
 	background-color: #eee;
 	text-align: left;
 	border: 2px solid #22395E;
-	width: 704px;
+	width: auto;
 	line-height: 120%;
 	margin: 10px auto;
 	padding: 4px;
@@ -44,7 +44,7 @@ a:active {
 	background-color: #eee;
 	text-align: left;
 	border: 2px solid #22395E;
-	width: 704px;
+	width: auto;
 	margin:  20px auto 0 auto;
 	padding: 4px;
 }
