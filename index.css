@@ -38,6 +38,7 @@ a:active {
 	line-height: 120%;
 	margin: 10px auto;
 	padding: 4px;
+	background-image: url('j05-bg-star.png');
 }
 
 #comment {
@@ -47,6 +48,7 @@ a:active {
 	width: auto;
 	margin:  20px auto 0 auto;
 	padding: 4px;
+	background-image: url('j05-bg-star.png');
 }
 
 .center {
@@ -117,7 +119,7 @@ td{
 
 hr.dot_line {
 	border: 0;
-	border-top: dotted 2px gray;
+	border-top: dotted 3px lightblue;
 	margin: 10px;
 }
 
@@ -137,4 +139,25 @@ form.post a {
 a.post {
 	color: red;
 	text-decoration: none;
+}
+
+#grad {
+	background-image: linear-gradient(lightblue, white);
+  }
+
+.edge {
+	background-color: white;
+	padding: 5px;
+	border: dotted 3px lightblue;
+}
+h1.edge{}
+
+img.cover {
+	filter: drop-shadow(0 0 0.75rem rgb(36, 145, 182));
+
+}
+
+.storylist {
+	background-color: white;
+	border: dotted 3px lightblue;
 }
