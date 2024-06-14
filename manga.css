@@ -74,3 +74,12 @@ form.post a:hover {
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 }
+
+#comment {
+	background-color: #eee;
+	text-align: left;
+	border: 2px solid #22395E;
+	width: 704px;
+	margin:  20px auto 0 auto;
+	padding: 4px;
+}
